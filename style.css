@@ -723,3 +723,20 @@ body {
     }
 
 }
+
+/* キャラクター画像のサイズ調整 */
+.character-placeholder {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  height: auto;
+  min-height: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+.character-placeholder img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
