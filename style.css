@@ -370,7 +370,7 @@ body {
 
 .character-placeholder span {
 
-    display: flex;
+    display: none;
 
     justify-content: center;
 
