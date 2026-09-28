@@ -2,73 +2,40 @@
 <html lang="ja">
 
 <head>
-
     <meta charset="UTF-8">
-
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0"
-    >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>DOKOTOクラブ キャラクター紹介</title>
 
-    <link
-        rel="stylesheet"
-        href="style.css"
-    >
-
+    <link rel="stylesheet" href="style.css">
 </head>
-
 
 <body>
 
 <div class="page">
 
-
-    <!-- ====================================
-         ヘッダー
-    ===================================== -->
-
+    <!-- ヘッダー -->
     <header class="header">
-
         <div class="logo-area">
-
-            <div class="logo">
-                DOKOTO
-            </div>
-
-            <div class="club-name">
-                クラブ
-            </div>
-
-            <div class="character-label">
-                ― キャラクター ―
-            </div>
-
+            <div class="logo">DOKOTO</div>
+            <div class="club-name">クラブ</div>
+            <div class="character-label">― キャラクター ―</div>
         </div>
-
     </header>
 
 
-
-    <!-- ====================================
-         タブ
-    ===================================== -->
-
+    <!-- タブ -->
     <div class="tabs">
 
         <button
             class="tab-button active"
-            data-target="official"
-        >
+            data-target="official">
             公式キャラクター
         </button>
 
-
         <button
             class="tab-button"
-            data-target="girls"
-        >
+            data-target="girls">
             ガールズケイリン<br>
             予想キャラクター
         </button>
@@ -76,219 +43,170 @@
     </div>
 
 
-
-    <!-- ====================================
+    <!-- ================================
          公式キャラクター
-    ===================================== -->
+    ================================= -->
 
-    <main
-        id="official"
-        class="character-page active-page"
-    >
-
+    <main id="official" class="character-page active-page">
 
         <h1 class="page-title">
             ✨ 公式キャラクター ✨
         </h1>
 
 
-
-        <!-- 9キャラクター -->
-
+        <!-- 9キャラクター一覧 -->
         <div class="character-grid">
 
-
             <!-- DOKOぽん -->
-
             <button
                 class="character-card"
                 data-scroll="dokopon"
-            >
+                aria-label="DOKOぽんの紹介">
 
                 <div class="character-placeholder">
-<img src="images/dokopon.png" alt="DOKOぽん" style="width: 140px; height: 140px; object-fit: contain;">
-                
-
-                    
-
+                    <img
+                        src="images/dokopon.png"
+                        alt="DOKOぽん">
                 </div>
 
             </button>
-
 
 
             <!-- DOKOぴょん -->
-
             <button
                 class="character-card"
                 data-scroll="dokopyon"
-            >
+                aria-label="DOKOぴょんの紹介">
 
                 <div class="character-placeholder">
-  <img src="images/dokopyon.png" alt="DOKOぴょん"
-       style="width: 140px; height: 140px; object-fit: contain;">
-  <strong>DOKOぴょん</strong>
-</div>
-
+                    <img
+                        src="images/dokopyon.png"
+                        alt="DOKOぴょん">
                 </div>
 
             </button>
-
 
 
             <!-- DOKOわん -->
-
             <button
                 class="character-card"
                 data-scroll="dokowan"
-            >
+                aria-label="DOKOわんの紹介">
 
                 <div class="character-placeholder">
-
-                    <span>3</span>
-
-                    <strong>DOKOわん</strong>
-
+                    <img
+                        src="images/dokowan.png"
+                        alt="DOKOわん">
                 </div>
 
             </button>
-
 
 
             <!-- DOKOはむ -->
-
             <button
                 class="character-card"
                 data-scroll="dokohamu"
-            >
+                aria-label="DOKOはむの紹介">
 
                 <div class="character-placeholder">
-
-                    <span>4</span>
-
-                    <strong>DOKOはむ</strong>
-
+                    <img
+                        src="images/dokohamu.png"
+                        alt="DOKOはむ">
                 </div>
 
             </button>
-
 
 
             <!-- DOKOえな -->
-
             <button
                 class="character-card"
                 data-scroll="dokoena"
-            >
+                aria-label="DOKOえなの紹介">
 
                 <div class="character-placeholder">
-
-                    <span>5</span>
-
-                    <strong>DOKOえな</strong>
-
+                    <img
+                        src="images/dokoena.png"
+                        alt="DOKOえな">
                 </div>
 
             </button>
-
 
 
             <!-- DOKOくま -->
-
             <button
                 class="character-card"
                 data-scroll="dokokuma"
-            >
+                aria-label="DOKOくまの紹介">
 
                 <div class="character-placeholder">
-
-                    <span>6</span>
-
-                    <strong>DOKOくま</strong>
-
+                    <img
+                        src="images/dokokuma.png"
+                        alt="DOKOくま">
                 </div>
 
             </button>
-
 
 
             <!-- DOKOりす -->
-
             <button
                 class="character-card"
                 data-scroll="dokorisu"
-            >
+                aria-label="DOKOりすの紹介">
 
                 <div class="character-placeholder">
-
-                    <span>7</span>
-
-                    <strong>DOKOりす</strong>
-
+                    <img
+                        src="images/dokorisu.png"
+                        alt="DOKOりす">
                 </div>
 
             </button>
-
 
 
             <!-- DOKOにゃ -->
-
             <button
                 class="character-card"
                 data-scroll="dokonya"
-            >
+                aria-label="DOKOにゃの紹介">
 
                 <div class="character-placeholder">
-
-                    <span>8</span>
-
-                    <strong>DOKOにゃ</strong>
-
+                    <img
+                        src="images/dokonya.png"
+                        alt="DOKOにゃ">
                 </div>
 
             </button>
-
 
 
             <!-- DOKOぴよ -->
-
             <button
                 class="character-card"
                 data-scroll="dokopiyo"
-            >
+                aria-label="DOKOぴよの紹介">
 
                 <div class="character-placeholder">
-
-                    <span>9</span>
-
-                    <strong>DOKOぴよ</strong>
-
+                    <img
+                        src="images/dokopiyo.png"
+                        alt="DOKOぴよ">
                 </div>
 
             </button>
-
 
         </div>
 
 
-
-        <!-- =================================
+        <!-- ================================
              DOKOぽん
-        ================================== -->
+        ================================= -->
 
-        <section
-            id="dokopon"
-            class="character-detail"
-        >
+        <section id="dokopon" class="character-detail">
 
             <div class="character-detail-inner">
 
                 <div class="detail-image-placeholder">
-
-                    <img src="images/dokopon.png" alt="DOKOぽん" style="width:100%; height:auto;">
-
+                    <img
+                        src="images/dokopon.png"
+                        alt="DOKOぽん">
                 </div>
-
 
                 <div class="character-text">
 
@@ -306,7 +224,7 @@
 
                     <p>
                         ちょっとおせっかいだけど、
-                        努力家な情報通。
+                        努力家な「情報の運び屋」。
                     </p>
 
                 </div>
@@ -316,24 +234,19 @@
         </section>
 
 
-
-        <!-- =================================
+        <!-- ================================
              DOKOぴょん
-        ================================== -->
+        ================================= -->
 
-        <section
-            id="dokopyon"
-            class="character-detail"
-        >
+        <section id="dokopyon" class="character-detail">
 
             <div class="character-detail-inner">
 
                 <div class="detail-image-placeholder">
-
-                    DOKOぴょん
-
+                    <img
+                        src="images/dokopyon.png"
+                        alt="DOKOぴょん">
                 </div>
-
 
                 <div class="character-text">
 
@@ -350,24 +263,19 @@
         </section>
 
 
-
-        <!-- =================================
+        <!-- ================================
              DOKOわん
-        ================================== -->
+        ================================= -->
 
-        <section
-            id="dokowan"
-            class="character-detail"
-        >
+        <section id="dokowan" class="character-detail">
 
             <div class="character-detail-inner">
 
                 <div class="detail-image-placeholder">
-
-                    DOKOわん
-
+                    <img
+                        src="images/dokowan.png"
+                        alt="DOKOわん">
                 </div>
-
 
                 <div class="character-text">
 
@@ -384,24 +292,19 @@
         </section>
 
 
-
-        <!-- =================================
+        <!-- ================================
              DOKOはむ
-        ================================== -->
+        ================================= -->
 
-        <section
-            id="dokohamu"
-            class="character-detail"
-        >
+        <section id="dokohamu" class="character-detail">
 
             <div class="character-detail-inner">
 
                 <div class="detail-image-placeholder">
-
-                    DOKOはむ
-
+                    <img
+                        src="images/dokohamu.png"
+                        alt="DOKOはむ">
                 </div>
-
 
                 <div class="character-text">
 
@@ -418,24 +321,19 @@
         </section>
 
 
-
-        <!-- =================================
+        <!-- ================================
              DOKOえな
-        ================================== -->
+        ================================= -->
 
-        <section
-            id="dokoena"
-            class="character-detail"
-        >
+        <section id="dokoena" class="character-detail">
 
             <div class="character-detail-inner">
 
                 <div class="detail-image-placeholder">
-
-                    DOKOえな
-
+                    <img
+                        src="images/dokoena.png"
+                        alt="DOKOえな">
                 </div>
-
 
                 <div class="character-text">
 
@@ -452,24 +350,19 @@
         </section>
 
 
-
-        <!-- =================================
+        <!-- ================================
              DOKOくま
-        ================================== -->
+        ================================= -->
 
-        <section
-            id="dokokuma"
-            class="character-detail"
-        >
+        <section id="dokokuma" class="character-detail">
 
             <div class="character-detail-inner">
 
                 <div class="detail-image-placeholder">
-
-                    DOKOくま
-
+                    <img
+                        src="images/dokokuma.png"
+                        alt="DOKOくま">
                 </div>
-
 
                 <div class="character-text">
 
@@ -486,24 +379,19 @@
         </section>
 
 
-
-        <!-- =================================
+        <!-- ================================
              DOKOりす
-        ================================== -->
+        ================================= -->
 
-        <section
-            id="dokorisu"
-            class="character-detail"
-        >
+        <section id="dokorisu" class="character-detail">
 
             <div class="character-detail-inner">
 
                 <div class="detail-image-placeholder">
-
-                    DOKOりす
-
+                    <img
+                        src="images/dokorisu.png"
+                        alt="DOKOりす">
                 </div>
-
 
                 <div class="character-text">
 
@@ -520,24 +408,19 @@
         </section>
 
 
-
-        <!-- =================================
+        <!-- ================================
              DOKOにゃ
-        ================================== -->
+        ================================= -->
 
-        <section
-            id="dokonya"
-            class="character-detail"
-        >
+        <section id="dokonya" class="character-detail">
 
             <div class="character-detail-inner">
 
                 <div class="detail-image-placeholder">
-
-                    DOKOにゃ
-
+                    <img
+                        src="images/dokonya.png"
+                        alt="DOKOにゃ">
                 </div>
-
 
                 <div class="character-text">
 
@@ -554,24 +437,19 @@
         </section>
 
 
-
-        <!-- =================================
+        <!-- ================================
              DOKOぴよ
-        ================================== -->
+        ================================= -->
 
-        <section
-            id="dokopiyo"
-            class="character-detail"
-        >
+        <section id="dokopiyo" class="character-detail">
 
             <div class="character-detail-inner">
 
                 <div class="detail-image-placeholder">
-
-                    DOKOぴよ
-
+                    <img
+                        src="images/dokopiyo.png"
+                        alt="DOKOぴよ">
                 </div>
-
 
                 <div class="character-text">
 
@@ -587,25 +465,19 @@
 
         </section>
 
-
     </main>
 
 
+    <!-- ================================
+         ガールズケイリン予想キャラクター
+    ================================= -->
 
-    <!-- ====================================
-         ガールズケイリン
-    ===================================== -->
-
-    <main
-        id="girls"
-        class="character-page"
-    >
+    <main id="girls" class="character-page">
 
         <h1 class="page-title girls-title">
             ガールズケイリン<br>
             予想キャラクター
         </h1>
-
 
         <div class="girls-placeholder">
 
@@ -613,7 +485,6 @@
             予想キャラクター
 
         </div>
-
 
         <div class="girls-detail">
 
@@ -630,11 +501,7 @@
     </main>
 
 
-
-    <!-- ====================================
-         フッター
-    ===================================== -->
-
+    <!-- フッター -->
     <footer class="footer">
 
         <p>
@@ -643,12 +510,10 @@
 
     </footer>
 
-
 </div>
 
 
 <script src="script.js"></script>
 
 </body>
-
 </html>
