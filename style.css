@@ -740,3 +740,20 @@ body {
   object-fit: contain;
   display: block;
 }
+
+/* スマホ・PC共通：紹介ページの画像サイズ調整 */
+.detail-image-placeholder {
+  width: 100%;
+  max-width: 320px;
+  aspect-ratio: 1 / 1;
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.detail-image-placeholder img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
