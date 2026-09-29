@@ -764,3 +764,27 @@ body {
   height: auto;
   margin: 0 auto;
 }
+/* タイトル画像の見切れを修正 */
+.header {
+  height: auto !important;
+  min-height: 0;
+  overflow: visible;
+  padding: 0;
+}
+
+.logo-area {
+  width: 100%;
+  height: auto !important;
+  min-height: 0;
+  overflow: visible;
+  padding: 0;
+}
+
+.header-banner {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto !important;
+  object-fit: contain;
+  margin: 0 auto;
+}
