@@ -757,3 +757,10 @@ body {
   height: 100%;
   object-fit: contain;
 }
+/* 新しいタイトル画像 */
+.header-banner {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
