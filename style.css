@@ -155,33 +155,35 @@ body {
 
 }
 
-
 .tab-button {
+  flex: 1;
 
-    flex: 1;
+  border: none;
+  border-radius: 0;
 
-    border: 3px solid #1a9fe3;
+  background-image: url("images/tab_design_05.png");
+  background-repeat: no-repeat;
+  background-size: 200% 100%;
 
-    border-radius: 18px;
+  color: transparent;
+  font-size: 0;
 
-    background: #fff;
+  padding: 0;
+  height: 135px;
 
-    color: #073b78;
+  cursor: pointer;
 
-    font-weight: 900;
+  transition:
+    transform 0.15s ease,
+    opacity 0.15s ease;
+}
 
-    font-size: 16px;
+.tab-button:first-child {
+  background-position: left center;
+}
 
-    line-height: 1.25;
-
-    padding: 10px 8px;
-
-    cursor: pointer;
-
-    transition:
-        transform 0.15s ease,
-        background 0.15s ease;
-
+.tab-button:nth-child(2) {
+  background-position: right center;
 }
 
 
@@ -189,25 +191,10 @@ body {
 
     transform: scale(0.96);
 
-}
-
-
-.tab-button.active[data-target="official"] {
-
-    background: #e8f8ff;
 
 }
 
 
-.tab-button.active[data-target="girls"] {
-
-    background: #fff0f6;
-
-    border-color: #f05b8b;
-
-    color: #d52d68;
-
-}
 
 
 /* =========================================
