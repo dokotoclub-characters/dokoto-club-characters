@@ -170,14 +170,9 @@ body {
 
 .tab-button img {
   display: block;
-  width: 100%;
+  width: 110%;
   height: auto;
-}
-
-.tab-button img {
-  display: block;
-  width: 100%;
-  height: auto;
+  margin-left: -5%;
 }
 
 .tab-button:active {
