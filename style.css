@@ -752,22 +752,26 @@ body {
 }
 @media (max-width: 600px) {
   .tabs {
+    display: flex;
     gap: 0;
     padding-left: 0;
     padding-right: 0;
   }
 
   .tab-button {
+    flex: 0 0 50%;
+    width: 50%;
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center;
   }
 
   .tab-button img {
+    display: block;
     width: 115%;
     max-width: none;
-    margin-left: -7.5%;
+    height: auto;
+    margin: 0;
   }
-}
-.tab-button:nth-child(2) img {
-  margin-left: -10%;
 }
