@@ -768,3 +768,6 @@ body {
     margin-left: -7.5%;
   }
 }
+.tab-button:nth-child(2) img {
+  margin-left: -10%;
+}
