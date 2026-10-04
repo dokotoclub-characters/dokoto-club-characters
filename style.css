@@ -776,8 +776,8 @@ body {
 /* 公式キャラクター見出し画像 */
 .official-title-image {
   width: 100%;
-  max-width: 600px;
-  margin: 5px auto 10px;
+  max-width: 520px;
+  margin: 5px auto 5px;
   text-align: center;
   overflow: hidden;
 }
@@ -790,4 +790,8 @@ body {
   margin: 0 auto;
   box-sizing: border-box;
 }
-
+@media (max-width: 600px) {
+  .official-title-image {
+    margin: 0 auto 5px;
+  }
+}
