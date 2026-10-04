@@ -168,11 +168,10 @@ body {
 
 .tab-button img {
   display: block;
-  width: 180%;
+  width: 140%;
   height: auto;
-  margin-left: -40%;
+  margin-left: -20%;
 }
-
 .tab-button:active {
   transform: scale(0.97);
 }
