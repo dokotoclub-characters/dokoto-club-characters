@@ -809,3 +809,19 @@ body {
     display: block !important;
   }
 }
+@media (min-width: 601px) {
+  .official-title-image {
+    width: 400px !important;
+    max-width: 400px !important;
+    height: auto !important;
+    margin: 10px auto !important;
+    overflow: hidden !important;
+  }
+
+  .official-title-image img {
+    width: 400px !important;
+    max-width: 400px !important;
+    height: auto !important;
+    display: block !important;
+  }
+}
