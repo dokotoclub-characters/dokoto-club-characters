@@ -139,8 +139,11 @@ body {
 
 .tabs {
   display: flex;
-  gap: 4px;
-  padding: 8px 4px;
+  width: 100%;
+  max-width: none;
+  box-sizing: border-box;
+  gap: 0;
+  padding: 8px 0;
   background: #fff;
   position: sticky;
   top: 0;
@@ -148,7 +151,8 @@ body {
 }
 
 .tab-button {
-  flex: 1;
+  flex: 0 0 50%;
+  width: 50%;
 
   border: none;
   background: transparent;
@@ -162,17 +166,10 @@ body {
     opacity 0.15s ease;
 }
 
-.tabs {
-  display: flex;
-  gap: 4px;
-  padding: 8px 6px;
-}
-
 .tab-button img {
   display: block;
-  width: 110%;
+  width: 100%;
   height: auto;
-  margin-left: -5%;
 }
 
 .tab-button:active {
