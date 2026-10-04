@@ -777,14 +777,17 @@ body {
 .official-title-image {
   width: 100%;
   max-width: 600px;
-  margin: 20px auto;
+  margin: 5px auto 10px;
   text-align: center;
+  overflow: hidden;
 }
 
 .official-title-image img {
   display: block;
-  width: 100%;
-  height: auto;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
   margin: 0 auto;
+  box-sizing: border-box;
 }
 
