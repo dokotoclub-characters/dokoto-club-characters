@@ -751,9 +751,20 @@ body {
   margin: 0 auto;
 }
 @media (max-width: 600px) {
+  .tabs {
+    gap: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .tab-button {
+    margin: 0;
+    padding: 0;
+  }
+
   .tab-button img {
-    width: 110%;
+    width: 115%;
     max-width: none;
-    margin-left: -5%;
+    margin-left: -7.5%;
   }
 }
