@@ -172,8 +172,8 @@ body {
   height: auto;
   margin-left: -20%;
 }
-.tab-button:active {
-  transform: scale(0.97);
+.tab-button {
+  transform: scale(1.08);
 }
 
 
