@@ -766,12 +766,12 @@ body {
     display: flex;
     justify-content: center;
   }
-
-  .tab-button img {
-    display: block;
-    width: 115%;
-    max-width: none;
-    height: auto;
-    margin: 0;
-  }
+.tab-button img {
+  display: block;
+  width: 100%;
+  max-width: none;
+  height: auto;
+  margin: 0;
 }
+
+
