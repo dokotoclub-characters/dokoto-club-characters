@@ -169,6 +169,18 @@ body {
     opacity 0.15s ease;
 }
 
+.tabs {
+  display: flex;
+  gap: 4px;
+  padding: 8px 6px;
+}
+
+.tab-button img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .tab-button img {
   display: block;
   width: 100%;
