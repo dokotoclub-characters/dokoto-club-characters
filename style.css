@@ -153,14 +153,10 @@ body {
 .tab-button {
   flex: 0 0 50%;
   width: 50%;
-
   border: none;
   background: transparent;
-
   padding: 0;
-
   cursor: pointer;
-
   transition:
     transform 0.15s ease,
     opacity 0.15s ease;
@@ -168,15 +164,13 @@ body {
 
 .tab-button img {
   display: block;
-  width: 140%;
+  width: 100%;
   height: auto;
-  margin-left: -20%;
-}
-.tab-button {
-  transform: scale(1.08);
 }
 
-
+.tab-button:active {
+  transform: scale(0.97);
+}
 
 /* =========================================
    ページ切り替え
