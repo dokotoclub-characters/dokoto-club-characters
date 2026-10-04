@@ -168,8 +168,9 @@ body {
 
 .tab-button img {
   display: block;
-  width: 100%;
+  width: 120%;
   height: auto;
+  margin-left: -10%;
 }
 
 .tab-button:active {
