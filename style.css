@@ -798,17 +798,14 @@ body {
 /* PC用：公式キャラクター見出し */
 @media (min-width: 601px) {
   .official-title-image {
-    width: 520px !important;
-    max-width: 520px !important;
-    margin: 5px auto !important;
-    overflow: hidden;
+    width: 60% !important;
+    max-width: 600px !important;
+    margin: 20px auto !important;
   }
 
   .official-title-image img {
-    display: block;
     width: 100% !important;
-    max-width: 100% !important;
     height: auto !important;
-    margin: 0 auto !important;
+    display: block !important;
   }
 }
