@@ -773,5 +773,18 @@ body {
   height: auto;
   margin: 0;
 }
+/* 公式キャラクター見出し画像 */
+.official-title-image {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  text-align: center;
+}
 
+.official-title-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
 
