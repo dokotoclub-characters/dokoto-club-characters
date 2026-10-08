@@ -840,3 +840,7 @@ body {
   display: block;
   margin: 0 auto;
 }
+   /* ガールズケイリン予想キャラクター：2列×2行 */
+#girls .character-grid {
+  grid-template-columns: repeat(2, 1fr);
+}
