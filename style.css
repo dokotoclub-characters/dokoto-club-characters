@@ -844,3 +844,7 @@ body {
 #girls .character-grid {
   grid-template-columns: repeat(2, 1fr);
 }
+/* ガールズケイリン予想キャラクター：PCでも2列 */
+#girls .character-grid {
+  grid-template-columns: repeat(2, 1fr) !important;
+}
