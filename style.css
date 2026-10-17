@@ -848,3 +848,30 @@ body {
 #girls .character-grid {
   grid-template-columns: repeat(2, 1fr) !important;
 }
+
+/* キャラクター紹介画像：共通設定 */
+.character-detail .character-detail-inner {
+  display: block;
+  width: 100%;
+}
+
+.character-detail .detail-image-placeholder {
+  width: 100%;
+  max-width: none;
+  height: auto;
+  aspect-ratio: auto;
+  padding: 0;
+  border: none;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  overflow: visible;
+}
+
+.character-detail .detail-image-placeholder img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
