@@ -863,3 +863,39 @@ body {
   height: auto;
   object-fit: contain;
 }
+
+/* キャラクター紹介画像：PC・スマホ共通 */
+.character-detail .detail-image-placeholder {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: transparent;
+  aspect-ratio: auto;
+  height: auto;
+  display: block;
+  overflow: visible;
+}
+
+.character-detail .detail-image-placeholder img {
+  display: block;
+  width: 100%;
+  max-width: none;
+  height: auto;
+  object-fit: contain;
+}
+
+/* PC：画像を枠いっぱいに表示 */
+@media (min-width: 768px) {
+  .character-detail .detail-image-placeholder {
+    width: 100%;
+  }
+}
+
+/* スマホ：左右の余白を少し減らして大きく表示 */
+@media (max-width: 767px) {
+  .character-detail .detail-image-placeholder {
+    width: 100%;
+  }
+}
