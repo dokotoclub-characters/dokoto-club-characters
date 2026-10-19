@@ -985,16 +985,15 @@ body {
   box-sizing: border-box;
 }
 
-/* PCのみ：DOKOぽんの紹介画像を大きく表示 */
+/* PCのみ：DOKOぽんの紹介画像を拡大 */
 @media (min-width: 768px) {
-  #dokopon .character-detail-inner {
-    padding: 10px;
+  #dokopon .detail-image-placeholder img {
+    width: 160%;
+    max-width: 160%;
+    height: auto;
+    margin-left: -30%;
   }
-
-  #dokopon .detail-image-placeholder {
-    width: 100%;
-    max-width: none;
-  }
+}
 
   #dokopon .detail-image-placeholder img {
     display: block;
