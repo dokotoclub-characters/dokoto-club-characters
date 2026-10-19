@@ -965,11 +965,10 @@ body {
     margin: 0;
     padding: 0;
   }
-}
 
-/* DOKOぽんの紹介画像をカードいっぱいに表示 */
+/* DOKOぽんの紹介画像：PC・スマホ別サイズ調整 */
 #dokopon .character-detail-inner {
-  padding: 8px;
+  padding: 0;
   width: 100%;
   box-sizing: border-box;
 }
@@ -979,7 +978,7 @@ body {
   max-width: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  overflow: visible;
 }
 
 #dokopon .detail-image-placeholder img {
@@ -988,13 +987,30 @@ body {
   max-width: none;
   height: auto;
   margin: 0;
+  padding: 0;
   object-fit: contain;
 }
 
-/* スマホは枠の端にさらに近づける */
-@media (max-width: 767px) {
+/* PC：画像をカードの幅いっぱいに表示 */
+@media (min-width: 768px) {
   #dokopon .character-detail-inner {
-    padding: 4px;
+    padding: 0;
+  }
+
+  #dokopon .detail-image-placeholder img {
+    width: 100%;
   }
 }
+
+/* スマホ：左右の余白をなくして表示 */
+@media (max-width: 767px) {
+  #dokopon .character-detail-inner {
+    padding: 0;
+  }
+
+  #dokopon .detail-image-placeholder img {
+    width: 100%;
+  }
+}
+
 
