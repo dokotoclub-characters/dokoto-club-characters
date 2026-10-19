@@ -936,14 +936,14 @@ body {
     }
 }
 
-/* DOKOぽんの紹介画像：共通 */
-#dokopon .character-detail-inner {
+/* キャラクター紹介画像：全キャラクター共通 */
+.character-detail .character-detail-inner {
   width: 100%;
   padding: 0;
   box-sizing: border-box;
 }
 
-#dokopon .detail-image-placeholder {
+.character-detail .detail-image-placeholder {
   display: block;
   width: 100%;
   max-width: none;
@@ -954,7 +954,7 @@ body {
   box-sizing: border-box;
 }
 
-#dokopon .detail-image-placeholder img {
+.character-detail .detail-image-placeholder img {
   display: block;
   width: 100%;
   max-width: 100%;
@@ -965,28 +965,28 @@ body {
   box-sizing: border-box;
 }
 
-/* PCのみ：DOKOぽんの紹介画像を拡大 */
+/* PC：全キャラクターの紹介画像を拡大 */
 @media (min-width: 768px) {
-  #dokopon .detail-image-placeholder img {
+  .character-detail .detail-image-placeholder img {
     width: 160%;
     max-width: 160%;
-    height: auto;
     margin-left: -30%;
   }
 }
 
-/* スマホ：現在の表示を維持 */
+/* スマホ：全キャラクター共通 */
 @media (max-width: 767px) {
-  #dokopon .character-detail-inner {
+  .character-detail .character-detail-inner {
     padding: 0;
   }
 
-  #dokopon .detail-image-placeholder img {
+  .character-detail .detail-image-placeholder img {
     width: 100%;
     max-width: 100%;
     margin: 0;
   }
 }
+
 
 
 
