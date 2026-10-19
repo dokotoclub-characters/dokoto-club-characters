@@ -879,11 +879,11 @@ body {
 }
 
 .character-detail .detail-image-placeholder img {
-  display: block;
-  width: 100%;
-  max-width: none;
-  height: auto;
-  object-fit: contain;
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
 }
 
 /* PC：画像を枠いっぱいに表示 */
