@@ -369,27 +369,15 @@ body {
 ========================================= */
 
 .character-detail {
-
-    padding: 35px 15px 55px;
-
-    margin-top: 15px;
-
-    border-top: 8px solid #e9f8ff;
-
+  padding: 15px 10px 25px;
+  margin-top: 10px;
+  border-top: 8px solid #e9f8ff;
 }
-
-
 .character-detail-inner {
-
-    background: #fff;
-
-    border-radius: 22px;
-
-    padding: 20px;
-
-    box-shadow:
-        0 5px 20px rgba(0, 0, 0, 0.08);
-
+  background: #fff;
+  border-radius: 22px;
+  padding: 8px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
 }
 
 
