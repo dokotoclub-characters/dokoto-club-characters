@@ -955,8 +955,8 @@ body {
   object-fit: contain;
   box-sizing: border-box;
 }
-
-/* DOKOぽんの紹介画像：表示サイズ調整 */
+   
+/* DOKOぽんの紹介画像：共通 */
 #dokopon .character-detail-inner {
   width: 100%;
   padding: 0;
@@ -967,15 +967,17 @@ body {
   display: block;
   width: 100%;
   max-width: none;
+  height: auto;
   margin: 0;
   padding: 0;
+  overflow: visible;
   box-sizing: border-box;
 }
 
 #dokopon .detail-image-placeholder img {
   display: block;
   width: 100%;
-  max-width: none;
+  max-width: 100%;
   height: auto;
   margin: 0;
   padding: 0;
@@ -983,18 +985,26 @@ body {
   box-sizing: border-box;
 }
 
-/* スマホ */
+/* PCのみ：画像を拡大 */
+@media (min-width: 768px) {
+  #dokopon .detail-image-placeholder img {
+    width: 140%;
+    max-width: 140%;
+    margin-left: -20%;
+  }
+}
+
+/* スマホ：現在の表示を維持 */
 @media (max-width: 767px) {
   #dokopon .character-detail-inner {
     padding: 0;
   }
 
-  #dokopon .detail-image-placeholder,
   #dokopon .detail-image-placeholder img {
     width: 100%;
-    max-width: none;
+    max-width: 100%;
     margin: 0;
-    padding: 0;
   }
 }
+
 
