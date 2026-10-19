@@ -967,3 +967,34 @@ body {
   }
 }
 
+/* DOKOぽんの紹介画像をカードいっぱいに表示 */
+#dokopon .character-detail-inner {
+  padding: 8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#dokopon .detail-image-placeholder {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#dokopon .detail-image-placeholder img {
+  display: block;
+  width: 100%;
+  max-width: none;
+  height: auto;
+  margin: 0;
+  object-fit: contain;
+}
+
+/* スマホは枠の端にさらに近づける */
+@media (max-width: 767px) {
+  #dokopon .character-detail-inner {
+    padding: 4px;
+  }
+}
+
