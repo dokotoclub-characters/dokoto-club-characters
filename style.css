@@ -936,26 +936,6 @@ body {
     }
 }
 
-/* DOKOぽんの紹介画像：PC・スマホ共通 */
-#dokopon .detail-image-placeholder {
-  width: 100%;
-  max-width: none;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-#dokopon .detail-image-placeholder img {
-  display: block;
-  width: 100%;
-  max-width: none;
-  height: auto;
-  margin: 0;
-  padding: 0;
-  object-fit: contain;
-  box-sizing: border-box;
-}
-   
 /* DOKOぽんの紹介画像：共通 */
 #dokopon .character-detail-inner {
   width: 100%;
@@ -995,15 +975,6 @@ body {
   }
 }
 
-  #dokopon .detail-image-placeholder img {
-    display: block;
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-    margin: 0;
-  }
-}
-
 /* スマホ：現在の表示を維持 */
 @media (max-width: 767px) {
   #dokopon .character-detail-inner {
@@ -1016,5 +987,6 @@ body {
     margin: 0;
   }
 }
+
 
 
