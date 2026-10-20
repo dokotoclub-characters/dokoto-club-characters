@@ -860,24 +860,14 @@ body {
   box-sizing: border-box;
 }
 
- 
 
 /* =========================================
    キャラクター紹介画像：PC表示のみ拡大
 ========================================= */
 @media screen and (min-width: 768px) {
 
-  /* PCではページ外への表示を許可 */
-  .page {
-    overflow: visible;
-  }
-
-  /* 紹介画像のエリアだけ横幅を広げる */
   .character-detail {
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    width: min(1100px, calc(100vw - 40px));
+    width: 100%;
     max-width: none;
     padding-left: 0;
     padding-right: 0;
@@ -886,6 +876,7 @@ body {
 
   .character-detail .character-detail-inner {
     width: 100%;
+    max-width: none;
     padding: 0;
     border-radius: 0;
     box-shadow: none;
@@ -896,11 +887,12 @@ body {
   .character-detail .detail-image-placeholder img {
     display: block;
     width: 100%;
-    max-width: 100%;
+    max-width: none;
     height: auto;
     box-sizing: border-box;
   }
 }
+
 
 
 
