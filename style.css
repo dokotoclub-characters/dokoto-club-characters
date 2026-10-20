@@ -866,21 +866,25 @@ body {
 ========================================= */
 @media screen and (min-width: 768px) {
   .character-detail {
+    width: 100%;
     padding-left: 0;
     padding-right: 0;
+    box-sizing: border-box;
   }
 
   .character-detail .character-detail-inner {
     width: 100%;
+    padding: 0;
+    box-sizing: border-box;
   }
 
   .character-detail .detail-image-placeholder,
   .character-detail .detail-image-placeholder img {
     width: 100%;
-    max-width: 100%;
+    max-width: none;
+    height: auto;
   }
 }
-
 
 
 
