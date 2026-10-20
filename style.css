@@ -620,10 +620,10 @@ body {
 
     }
 
-
- .character-detail {
-  padding: 3px 2px 5px;
+.character-detail {
+  padding: 3px 0 5px;
   margin-top: 5px;
+}
 }
 
     .character-detail-inner {
