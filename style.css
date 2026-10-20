@@ -861,19 +861,25 @@ body {
 }
 
 
+
 /* =========================================
    キャラクター紹介画像：PC表示のみ拡大
 ========================================= */
 @media screen and (min-width: 768px) {
 
+  /* 紹介画像のエリアを画面中央に配置して広げる */
   .character-detail {
-    width: 100%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: min(1100px, calc(100vw - 40px));
     max-width: none;
     padding-left: 0;
     padding-right: 0;
     box-sizing: border-box;
   }
 
+  /* 紹介画像の内側の余白をなくす */
   .character-detail .character-detail-inner {
     width: 100%;
     max-width: none;
@@ -883,16 +889,16 @@ body {
     box-sizing: border-box;
   }
 
+  /* 画像をセクション幅いっぱいに表示 */
   .character-detail .detail-image-placeholder,
   .character-detail .detail-image-placeholder img {
     display: block;
     width: 100%;
-    max-width: none;
+    max-width: 100%;
     height: auto;
     box-sizing: border-box;
   }
 }
-
 
 
 
