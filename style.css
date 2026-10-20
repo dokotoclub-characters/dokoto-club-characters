@@ -855,7 +855,16 @@ body {
   object-fit: contain;
   box-sizing: border-box;
 }
-
+/* キャラクター紹介：カードの共通デザイン */
+.character-detail {
+  background: #ffffff;
+  border: 1px solid #dceefa;
+  border-radius: 14px;
+  padding: 8px;
+  margin: 14px 8px;
+  box-shadow: 0 3px 10px rgba(60, 130, 180, 0.10);
+  box-sizing: border-box;
+}
 
 
 
