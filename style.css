@@ -860,5 +860,27 @@ body {
   box-sizing: border-box;
 }
 
+   
+/* =========================================
+   キャラクター紹介画像：PC表示のみ拡大
+========================================= */
+@media screen and (min-width: 768px) {
+  .character-detail {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .character-detail .character-detail-inner {
+    width: 100%;
+  }
+
+  .character-detail .detail-image-placeholder,
+  .character-detail .detail-image-placeholder img {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+
 
 
