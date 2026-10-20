@@ -822,11 +822,15 @@ body {
 #girls .character-grid {
   grid-template-columns: repeat(2, 1fr) !important;
 }
+
 /* キャラクター紹介画像：全キャラクター共通 */
 .character-detail .character-detail-inner {
   width: 100%;
   padding: 0;
   box-sizing: border-box;
+  background: transparent;
+  border-radius: 0;
+  box-shadow: none;
 }
 
 .character-detail .detail-image-placeholder {
@@ -847,14 +851,14 @@ body {
 
 .character-detail .detail-image-placeholder img {
   display: block;
-  width: 100% !important;
-  max-width: 100% !important;
-  height: auto !important;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
   margin: 0;
   padding: 0;
   object-fit: contain;
   box-sizing: border-box;
-
+}
 
 
 
