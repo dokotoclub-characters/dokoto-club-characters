@@ -861,12 +861,14 @@ body {
 }
 
 
+
 /* =========================================
    キャラクター紹介画像：PC表示のみ拡大
+   公式キャラクターのみ適用
 ========================================= */
 @media screen and (min-width: 768px) {
 
-  .character-detail {
+  #official .character-detail {
     width: calc(100vw - 40px);
     max-width: 1100px;
     margin-left: calc((720px - 100vw) / 2 + 20px);
@@ -875,7 +877,7 @@ body {
     box-sizing: border-box;
   }
 
-  .character-detail .character-detail-inner {
+  #official .character-detail .character-detail-inner {
     width: 100%;
     max-width: none;
     padding: 0;
@@ -884,8 +886,8 @@ body {
     box-sizing: border-box;
   }
 
-  .character-detail .detail-image-placeholder,
-  .character-detail .detail-image-placeholder img {
+  #official .character-detail .detail-image-placeholder,
+  #official .character-detail .detail-image-placeholder img {
     display: block;
     width: 100%;
     max-width: 100%;
@@ -893,6 +895,7 @@ body {
     box-sizing: border-box;
   }
 }
+
 
 
 
